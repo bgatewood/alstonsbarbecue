@@ -1,0 +1,44 @@
+---
+---
+
+@import "{{ site.theme }}";
+
+#topline {
+  table {
+    table-layout: fixed;
+    width: 100%;
+  }
+  // .logo-cell { width: 200px; }
+  // .logo { height: 200px; }
+  .title-cell {}
+  .title {
+    font-family: Helvetica, sans-serif;
+    font-weight: 200;
+    font-optical-sizing: auto;
+    font-style: normal;
+    font-size: 36px;
+    margin-bottom: 0px;
+    padding-top: 36px;
+    padding-left: 16px;
+  }
+}
+
+td {
+  padding: 0px;
+  border-bottom: 0px;
+}
+
+section#main {
+  margin-top: 20px;
+  padding-top: 0px;
+}
+
+.img-caption {
+  padding-bottom: .5em;
+  .caption {
+    font-style: italic;
+    color: #aaa;
+  }
+}
+
+.carousel { margin-bottom: 20px; }
